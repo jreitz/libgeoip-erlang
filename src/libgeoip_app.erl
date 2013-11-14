@@ -5,10 +5,10 @@
 -export([start/2, stop/1]).
 
 start() ->
-  application:start(libgeoip_app).
+  application:start(libgeoip).
 
 stop() ->
-  application:stop(libgeoip_app).
+  application:stop(libgeoip).
 
 
 start(_Type, _Args) ->
